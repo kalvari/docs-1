@@ -19,10 +19,10 @@ In practice, users can request GlusterFS dynamically provisioned storage by simp
  kind: PersistentVolumeClaim
  metadata:
   name: name-you-choose
-  spec:
-    accessModes:
-      - ReadWriteOnce
-    storageClassName: # left empty
-    resources:
-      requests:
-        storage: 1Gi
+ spec:
+   accessModes:
+     - ReadWriteOnce
+   storageClassName: # left empty
+   resources:
+     requests:
+       storage: 1Gi
